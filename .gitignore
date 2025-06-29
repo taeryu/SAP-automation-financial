@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SAP 관련 민감 정보
+config_prod.py
+*.sap
+*.gui
+
+# 데이터 파일
+data/input/*.xlsx
+data/input/*.xls
+data/output/*.xlsx
+data/output/*.html
+data/output/*.pdf
+data/temp/*
+
+# 로그 파일
+*.log
+logs/
+
+# 백업 파일
+*.bak
+*.backup
+
+# 환경 변수
+.env
+.env.local
+
+# 테스트 커버리지
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
